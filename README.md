@@ -3,6 +3,8 @@
 Este repositório foi criado para enviar as atividades propostas no bootcamp Front-End Santander. 
 Em alguns momentos é preciso fazer uma atividade com os conhecimentos que foram abortados, e é preciso que seja postado no GitHub.
 
+As atividades serão postadas numa pasta com o mesmo nome da mesma, para cada atividade solicitada será criada uma pasta com os arquivos das atividades.
+
 
 O curso tem carga horária de 102 horas e é composto por 8 capítulos, são eles:
 
