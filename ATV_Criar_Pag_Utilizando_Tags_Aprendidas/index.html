@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header id="container-head">
+        <nav class="menu-nav">
+            <ul class="menu-lista">
+                <li><a href="#html" class="links">O que é HTML</a></li>
+                <li><a href="#semantica" class="links">Semântica em HTML</a></li>
+                <li><a href="#titulos" class="links">Títulos em HTML</a></li>
+                <li><a href="#tabelas" class="links">Tebelas em HTML</a></li>
+                <li><a href="#formularios" class="links">Formulários em HTML</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="container-main">
+
+        <h1 id="html" class="titulos"> O que é HTML? </h1>
+        <P> HTML (HyperText Markup Language) é a linguagem de marcação usada para criar páginas da web. Ele estrutura o
+            conteúdo, dizendo ao navegador como exibir textos, imagens, links, vídeos, formulários etc. É como se fosse
+            o esqueleto do site. </P>
+
+        <p>Depois da atualização para o HTML 5 foi adicionado novas tags, que são tags semânticas. Elas ajudam na
+            clareza e propósito do conteúdo, além de melhorar o SEO do site. <br>
+            São elas:
+        </p>
+        <p>&lt;article&gt; = Para escrever, por exemplo, um artigo</p>
+        <p>&lt;nav&gt; = É usado para a navegação do site, normalmente colocamos links</p>
+        <p>&lt;header&gt; = É usado para o cabeçalho do site, aonde normalmentecolocamos o logo e menus</p>
+        <p>&lt;footer&gt; = É usado para criar o rodapé do site</p>
+        <p>&lt;section&gt; = uma seção de conteúdo</p>
+        <p>&lt;main&gt; = conteúdo principal</p>
+
+        <h2 id="semantica"  class="titulos"> O que é semântica em HTML? </h2>
+        <p> A semântica em HTML se refere ao uso de tags que descrevem claramente o propósito do conteúdo. Essas tags
+            ajudam navegadores, motores de busca e tecnologias assistivas (como leitores de tela) a entender melhor o
+            conteúdo. </p>
+
+        <strong>
+            <p>Por que a semântica importa?</p>
+        </strong>
+
+        <p> Melhora a acessibilidade. <br>
+            Melhora o SEO (otimização para motores de busca). <br>
+            Facilita a manutenção e a colaboração no código. <br>
+            Ajuda leitores de tela a interpretar a página corretamente.
+        </p>
+        <p> Use tags semânticas sempre que possível. Só use &lt;div&gt; ou &lt;span&gt; quando não houver uma
+            alternativa semântica apropriada. Use atributos como aria-label para
+            melhorar ainda mais a acessibilidade.
+        </p>
+
+        <h2 id="titulos"  class="titulos"> O que são títulos em HTML? </h2>
+        <p>
+            Títulos são criados usando as tags h1 até h6 e são usados para organizar o conteúdo da página de forma
+            hierárquica. Eles informam qual é o
+            conteúdo mais importante e ajudam na navegação, tanto para os usuários quanto para ferramentas como o
+            Google e leitores de tela. <br> <br>
+            Use apenas um h1 por página, mantenha a ordem hierárquica, use os títulos para dividir seções claramente e
+            vite usar h1 - h6 apenas para mudar o tamanho do texto, use css para isso.
+        </p>
+
+        <h2 id="tabelas"  class="titulos">Tabelas em HTML</h2>
+        <p>
+            As tabelas são usadas para exibir dados organizados em linhas e colunas. <br>
+            <strong>Tags importantes:</strong><br> <br>
+            &lt;table&gt; = Inicia a tabela.<br> <br>
+            &lt;tr&gt; = Cria uma linha na tabela.<br> <br>
+            &lt;th&gt; = Cria o cabeçalho da coluna.<br> <br>
+            &lt;td&gt; = Cria as célula de dados da tabela.<br> <br>
+            &lt;thead&gt; = Aonde pode ser colocado o cabeçalho da coluna. <br> <br>
+            &lt;tbody&gt; = Aonde colocamos o corpo da tabela.<br> <br>
+            &lt;tfoot&gt; = Rodapé da tabela (opcional). Aonde colocamos, por exemplo, um campo de "Total", caso
+            aja.<br> <br>
+
+        </p>
+
+        <h2 id="formularios"  class="titulos"> Formulários em HTML </h2>
+        <p>
+            Formulários são campos que criamos para que o usuário digite alguma informação solicitada, pois permitem que
+            o usuário envie dados para o servidor (ou para um script). <br> <br>
+            <strong> Principais elementos de formulário: </strong> <br> <br>
+            &lt;form&gt; = Define o formulário.<br>   
+            action="" = É adicionado dentro da tag form e colocamos o caminho para onde os dados serão enviados.<br>   <br>
+            method="get/post" = É colocado também dentro da tag form, é o método de envio (GET = URL, POST = corpo).<br>  <br> 
+            &lt;input&gt; = Por essa tag que inserimos os campos de entrada (texto, email, senha etc.).<br>   <br>
+            &lt;textarea&gt; = Cria uma área de texto maior.<br>  <br>
+            &lt;select&gt; / &lt;option&gt; = Usados para criar opções pré estabelecidas para o usuário.<br>   <br>
+            &lt;button&gt; = Insere um botão (geralmente para enviar ou resetar).<br>   <br>
+            &lt;label&gt; = Insere um rótulo do campo, vai antes do input.  <br> <br>
+            required = É colocado dentro de um input para tonar aquele campo obrigatório.<br>  <br>
+            placeholder = Gera um texto de exemplo dentro da guia do campo.<br>  <br>
+        </p>
+
+    </main>
+
+</body>
+
+</html>

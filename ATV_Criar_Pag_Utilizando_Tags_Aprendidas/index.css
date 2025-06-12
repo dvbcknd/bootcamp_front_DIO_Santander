@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-padding-top: 100px; /* altura exata ou maior que seu menu fixo */
+  scroll-behavior: smooth;   /* faz a rolagem ser suave, opcional */
+}
+
+body{
+    background-color: #f1f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container-head, #container-main{
+    width: 1200px;
+    height: 100%;
+    margin: auto;  
+    padding: 30px;
+    
+}
+
+#container-main{
+    
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    position: fixed;  /* fixa o menu na tela */
+    top: 0;           /* posiciona no topo */
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.menu-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+         
+}
+
+.menu-nav .menu-lista .links{
+     border: solid 1px #050505;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: #313a52;
+
+}
+
+.menu-nav .menu-lista a:hover{
+    background-color: #f1f0f0;
+    color: #000;
+}
+
+.titulos{
+
+    padding: 15px;
+    color: #313a52;
+}
+
+#container-main p{
+    
+    padding: 10px;
+}
