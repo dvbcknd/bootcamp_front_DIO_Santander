@@ -1,0 +1,176 @@
+
+@import 'padrao';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    @include font;
+} 
+
+#img-play, #botao-pesquisa, #img-perfil, #toggle,
+#video-icon, #sino-icon, #perfil, #inscrever, 
+#dio, #like, #deslike, #Compartilhar, h4{
+    @include pointer;
+}
+
+// Inicio estilização da barra de navegação
+.divs-nav{
+    
+
+    // Estilo do toogle button e img Youtube
+    #img-play{
+        width: 100px;
+    }
+
+    // Estilo da caixa de pesquisa e lupa
+    #caixa-pesquisa{
+        width: 500px;
+        height: 30px;
+        border-radius: 7px 0 0 7px;
+    }
+
+    #botao-pesquisa{
+        height: 33px;
+        border-radius: 0 7px 7px 0;
+        margin-left: -6px;
+        
+    }
+    
+    // Estilo do icons video, notificação e img perfil
+    #img-perfil, #video-icon, #sino-icon{
+        margin: 7px
+    }
+}
+
+.navegacao{
+    @include flex-box-space;
+    background-color: rgba(186, 185, 185, 0.1);
+    height: 60px;
+    width: 100%;
+    // border: 1px solid rgb(183, 177, 177);
+
+    button{
+        width: 40px;
+        height: 20px;
+    }
+
+    #img-perfil{
+        width:30px;
+        border-radius: 50px
+    }
+
+    
+}
+// Fim estilização da barra de navegação
+
+
+// Inicio da estilização do main
+#main-content {
+    @include flex-box;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    
+
+    #main-video{
+        margin-left: 50px;
+    }
+
+    h2{
+        margin: 10px 50px;
+    }
+
+    #itens-video{
+        @include flex-box;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+
+
+    // Estilização dos itens abaixo do vídeo.
+    #perfil{
+       @include flex-box;
+
+        img{
+            border-radius: 60px;
+        }
+
+        #dio{
+            margin-left: 15px;
+        }
+
+        #inscrever{
+            margin-left: 20px;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 17px;
+        }
+    }
+
+    // Estilização dos botoes de like, deslike e compartilhar
+    #botoes-like{
+        display: flex;
+        margin-right: 30px;
+                
+        #like{
+            padding: 5px 10px;
+            border-radius: 10px 0 0 10px;
+    
+            @include flex-box;
+        }
+
+        #deslike{
+            padding: 5px 10px;
+            border-radius: 0 10px 10px 0;
+            margin-left: -7px;
+            
+        }
+
+        #Compartilhar{
+            padding: 10px 7px;
+            border-radius: 10px;
+            margin-left: 5px;
+            @include flex-box;
+            
+        }
+
+       
+    }
+}
+
+
+
+// Inicio da estilização dos videos laterais
+.aside{
+    @include flex-box-space;
+    flex-direction: column;
+    margin-left: 100px;
+    
+    .aside-content{
+        @include flex-box-space;
+        
+        img{
+            width: 190px;
+            padding-bottom: 10px;
+            
+        }
+
+        h4{
+            margin: 5px;
+            width: 150px;
+            font-size: 14px;
+            
+        }
+
+        p{
+            margin: 5px;
+            
+        }
+    }
+}
+// Fim da estilização dos videos laterais
+

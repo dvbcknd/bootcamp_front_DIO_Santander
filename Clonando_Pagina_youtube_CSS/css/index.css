@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif, Georgia, Times, serif;
+}
+
+#img-play, #botao-pesquisa, #img-perfil, #toggle,
+#video-icon, #sino-icon, #perfil, #inscrever,
+#dio, #like, #deslike, #Compartilhar, h4 {
+  cursor: pointer;
+}
+
+.divs-nav #img-play {
+  width: 100px;
+}
+.divs-nav #caixa-pesquisa {
+  width: 500px;
+  height: 30px;
+  border-radius: 7px 0 0 7px;
+}
+.divs-nav #botao-pesquisa {
+  height: 33px;
+  border-radius: 0 7px 7px 0;
+  margin-left: -6px;
+}
+.divs-nav #img-perfil, .divs-nav #video-icon, .divs-nav #sino-icon {
+  margin: 7px;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(186, 185, 185, 0.1);
+  height: 60px;
+  width: 100%;
+}
+.navegacao button {
+  width: 40px;
+  height: 20px;
+}
+.navegacao #img-perfil {
+  width: 30px;
+  border-radius: 50px;
+}
+
+#main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: flex-start;
+}
+#main-content #main-video {
+  margin-left: 50px;
+}
+#main-content h2 {
+  margin: 10px 50px;
+}
+#main-content #itens-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+#main-content #perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-content #perfil img {
+  border-radius: 60px;
+}
+#main-content #perfil #dio {
+  margin-left: 15px;
+}
+#main-content #perfil #inscrever {
+  margin-left: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 17px;
+}
+#main-content #botoes-like {
+  display: flex;
+  margin-right: 30px;
+}
+#main-content #botoes-like #like {
+  padding: 5px 10px;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-content #botoes-like #deslike {
+  padding: 5px 10px;
+  border-radius: 0 10px 10px 0;
+  margin-left: -7px;
+}
+#main-content #botoes-like #Compartilhar {
+  padding: 10px 7px;
+  border-radius: 10px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.aside .aside-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aside .aside-content img {
+  width: 190px;
+  padding-bottom: 10px;
+}
+.aside .aside-content h4 {
+  margin: 5px;
+  width: 150px;
+  font-size: 14px;
+}
+.aside .aside-content p {
+  margin: 5px;
+}

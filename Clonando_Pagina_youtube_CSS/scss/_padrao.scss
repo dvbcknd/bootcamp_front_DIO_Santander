@@ -1,0 +1,20 @@
+
+@mixin flex-box-space{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+@mixin flex-box{
+    display: flex; 
+    align-items:center;
+    justify-content: center;
+}
+
+@mixin font {
+    font-family: Helvetica, sans-serif, Georgia, Times, serif;
+}
+
+@mixin pointer{
+    cursor: pointer;
+}
